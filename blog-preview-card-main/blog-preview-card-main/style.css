@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:hsl(47, 88%, 63%);
+}
+
+.container{
+  max-width:327px;
+  outline:1px solid black;
+  margin: auto 1.5em;
+  padding:1.5em;
+  border-radius:1em;
+  font-family: Figtree,sans-serif;
+  box-shadow: 10px 10px;
+  background-color:hsl(0, 0%, 100%)
+}
+
+img{
+  width: 100%;
+  border-radius:0.6em;
+  object-fit: cover;
+}
+
+.badge{
+  background-color:hsl(47, 88%, 63%);
+  margin-top: 2em;
+  padding: 0.5em;
+  font-weight: 800;
+  font-size: 0.75rem;
+  width: 28%;
+  text-align: center;
+  border-radius:0.2em;
+}
+
+.date-published{
+  margin-top:1.4em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 7%)
+
+}
+
+h1{
+  margin-top: 0.9em;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+h1:hover{
+  color:hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.course-description{
+  font-size:0.85rem;
+  color:hsl(0, 0%, 42%);
+  font-weight:500;
+  margin-top: 0.9em;
+  line-height: 1.5em;
+
+}
+
+.instructor{
+  margin-top: 1.3em;
+  width:46%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar{
+  width:23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructor-name{
+  font-weight:800;
+  font-size: 0.9rem;
+}
+
+
+
+@media screen and (max-width:375px){
+  .container{
+    width: 88%;
+  }
+
+  
+
+  
+
+
+}
